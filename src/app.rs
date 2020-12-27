@@ -1,15 +1,9 @@
-use std::ops::Deref;
-
-use actix_web::http::StatusCode;
 use clap::{App, Arg};
 
-use super::{
-    env,
-    errors::{Error, Result},
-};
+use super::{env, errors::Result};
 
 pub fn launch() -> Result<()> {
-    let matches = App::new(env::NAME)
+    let _matches = App::new(env::NAME)
         .version(env::VERSION)
         .author(env::AUTHORS)
         .about(env::DESCRIPTION)

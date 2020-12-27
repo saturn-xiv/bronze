@@ -23,4 +23,5 @@ pub mod gua8;
 pub mod lunar;
 pub mod na_jia;
 pub mod xiang4;
+pub mod xing5;
 pub mod yi2;
